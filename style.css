@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+ background-image: url("pexels-tirachard-kumtanom-112571-450066.jpg");
+ background-size: cover;
+ 
+}
+header{
+
+    height:70px;
+    background-color: #FFCFB3;
+}
+
+#heading{
+    margin-left: 600px;
+    padding-top: 20px;
+    color:rgb(6, 2, 35);
+    
+}
+
+.container{
+    margin-top:50px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    gap:100px;
+}
+.moves{
+    height:170px;
+    width:170px;
+    border-radius: 50%;
+    border:12px solid #060223;
+}
+.moves:active{
+    border: 12px solid #FFCFB3;
+}
+.moves:hover{
+    border: 12px solid #FFCFB3;
+}
+.rock{
+    background-image: url("rock2.png");
+    background-size: contain;
+}
+.paper{
+    background-image: url("paper.png");
+    background-size: contain;
+}
+.scissor{
+    background-image: url("images.jpg");
+    background-size: contain;
+}
+.score{
+    margin-top:50px;
+    padding-top:50px;
+    margin-left: 500px;
+        width:500px;
+    background-color: #FFCFB3;
+    border-radius: 7%;
+    margin-bottom:100px;
+}
+.scoreno{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:110px;
+    font-size: 90px;
+    color: #060223;
+}
+.scorer{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:90px;
+    font-size: 50px;
+    color: #060223;
+}
+
+.text{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color: #060223;
+    color:#FFCFB3;
+    margin-left:30px;
+  margin-right: 50px;
+    font-size: 30px;
+    border-radius:5%;
+    width:450px;
+    
+}
