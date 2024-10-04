@@ -58,6 +58,7 @@ let  botmove=()=>{
                 else if(botchoice==="scissor"){
                     console.log("You lost! scissor beats paper");
                     p.innerText="You lost! scissor beats paper";
+                    score2.innerText=parseInt(score2.innerText)+1;
                     text.style.backgroundColor="red";
                 }
             }
@@ -72,6 +73,7 @@ let  botmove=()=>{
                 else if(botchoice=== "paper"){
                     console.log("You won! scissor beats paper");
                     p.innerText="You won! scissor beats paper";
+                    score1.innerText=parseInt(score1.innerText)+1;
                     text.style.backgroundColor="green";
         
                 }
